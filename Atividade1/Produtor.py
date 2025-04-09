@@ -20,5 +20,28 @@ def multicast_produtor():
     PORT = 5007
     TTL = 1
 
-    sock = socket.socket(socket.AL_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
     sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL,TTL)
+
+    data = [
+        {'id': 123456789, 'name': 'Smith', 'place': 'Londres', 'year': 1984},
+        {'id': 987654321, 'name': 'João', 'place': 'São Paulo', 'year': 1990},
+        {'id': 555555555, 'name': 'Maria', 'place': 'Lisboa', 'year': 1988}
+    ]
+
+    try:
+        for byte in data:
+            xml_d = createPXML(
+                byte['id'],
+                byte['name'],
+                byte['place'],
+                byte['year']
+            )
+            sock.sendto(xml_d, (MULTICAST_GROUP, PORT))
+            print(f"Enviado: {xml_d.decode('utf-8')}")
+            time.sleep(2)
+    finally:
+        sock.close()
+
+if __name__ == '__main__':
+    multicast_produtor()
