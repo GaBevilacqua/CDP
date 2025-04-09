@@ -1,5 +1,12 @@
 # CDP
 
+## Link para o resumo da matéria
+
+https://docs.google.com/document/d/1gB-NcUDznsygZiKMreLSATYcYH1aq9RgsSIf3TROxdY/edit?usp=sharing
+
+
+
+
 ## Exercício 1
 
 ### Base
