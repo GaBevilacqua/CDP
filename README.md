@@ -1,12 +1,5 @@
 # CDP
 
-## Link para o resumo da matéria
-
-https://docs.google.com/document/d/1gB-NcUDznsygZiKMreLSATYcYH1aq9RgsSIf3TROxdY/edit?usp=sharing
-
-
-
-
 ## Exercício 1
 
 ### Base
@@ -18,7 +11,7 @@ Para a serialização dos dados utilizamos XML, podemos usar as bibliotecas(xml.
 Configuração do socket (UDP,IP, Port, TTL) -> Ciração XML -> Serialização -> Envio
 
 ### Arquitetura Consumidor
-COnfiguração do socket -> Recepção -> Desserialização
+COnfiguração do socket -> Recepção -> Desserialização ou usar biblioteca
 
 
 
