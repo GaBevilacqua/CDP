@@ -1,17 +1,14 @@
 import socket
-import struct
 from xml.etree import ElementTree as ET
 import time
 
 def createPXML(id,name, place, year):
-    #Criando uma pessoa e atribuindo um identficador a ela
     pessoa = ET.Element('pessoa')
     pessoa.set('id', str(id))
 
-    #Toda pessoa tem um nome, lugar e ano
-    ET.SubElement(pessoa, 'nome').text = name
-    ET.SubElement(pessoa, 'lugar').text = place
-    ET.SubElement(pessoa, 'ano').text = year
+    ET.SubElement(pessoa, 'nome').text = str(name)
+    ET.SubElement(pessoa, 'lugar').text = str(place)
+    ET.SubElement(pessoa, 'ano').text = str(year)
 
     return ET.tostring(pessoa, encoding='utf-8')
 
@@ -24,9 +21,9 @@ def multicast_produtor():
     sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL,TTL)
 
     data = [
-        {'id': 123456789, 'name': 'Smith', 'place': 'Londres', 'year': 1984},
-        {'id': 987654321, 'name': 'João', 'place': 'São Paulo', 'year': 1990},
-        {'id': 555555555, 'name': 'Maria', 'place': 'Lisboa', 'year': 1988}
+        {'id': 27852857868, 'name': 'Brenda Fernandes', 'place': 'Naucalpan', 'year': 1990},
+        {'id': 76867357881, 'name': 'Hector Herreira', 'place': 'Iztapalapa', 'year': 1991},
+        {'id': 47723388101, 'name': 'Juan Plata', 'place': 'Ecatepec', 'year': 1993}
     ]
 
     try:

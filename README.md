@@ -11,7 +11,7 @@ Para a serialização dos dados utilizamos XML, podemos usar as bibliotecas(xml.
 Configuração do socket (UDP,IP, Port, TTL) -> Ciração XML -> Serialização -> Envio
 
 ### Arquitetura Consumidor
-COnfiguração do socket -> Recepção -> Desserialização
+COnfiguração do socket -> Recepção -> Desserialização ou usar biblioteca
 
 
 
