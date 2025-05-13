@@ -1,7 +1,3 @@
-"""
-Monitor de sincronização automática de arquivos.
-"""
-
 import os
 import hashlib
 import time
@@ -14,19 +10,18 @@ class SyncMonitor:
         self.protocol_mode = protocol_mode
         self.interval = interval
         self.running = False
+        self.slave_file = os.path.join(os.path.dirname(__file__), 'slave.txt')
         self.slave_file = 'slave.txt'
         self._init_file()
         self.last_hash = self._calculate_file_hash()
 
     def _init_file(self):
-        """Garante que o arquivo slave existe."""
         if not os.path.exists(self.slave_file):
             with open(self.slave_file, 'w') as f:
                 f.write('')
             logging.info(f"Arquivo {self.slave_file} criado")
 
     def _calculate_file_hash(self) -> Optional[str]:
-        """Calcula o hash SHA-256 do arquivo slave."""
         try:
             with open(self.slave_file, 'r') as f:
                 return hashlib.sha256(f.read().encode()).hexdigest()
@@ -35,27 +30,47 @@ class SyncMonitor:
             return None
 
     def _sync(self):
-        """Executa uma sincronização completa."""
         try:
             server_version = self.stub.check_master_version()
+            if not server_version:  # Novo
+                logging.error("Resposta vazia do servidor")
+                return
+                
             if server_version.get('content_hash') != self.last_hash:
                 content = self.stub.get_file_content()
+                if not content:  # Novo
+                    logging.error("Conteúdo vazio recebido do servidor")
+                    return
+                    
                 with open(self.slave_file, 'w') as f:
                     f.write(content)
                 self.last_hash = self._calculate_file_hash()
-                logging.info("Sincronização concluída")
-                
         except Exception as e:
             logging.error(f"Erro na sincronização: {str(e)}")
 
+    def _get_local_last_modified(self) -> float:
+        return os.path.getmtime(self.slave_file) if os.path.exists(self.slave_file) else 0
+
+    def _sync_local_changes(self):
+        current_hash = self._calculate_file_hash()
+        if current_hash != self.last_hash:
+            try:
+                with open(self.slave_file, 'r') as f:
+                    content = f.read()
+                response = self.stub.update_master(content)
+                logging.info(f"Local changes synced to master: {response.get('message')}")
+                self.last_hash = current_hash
+            except Exception as e:
+                logging.error(f"Failed to sync local changes: {str(e)}")
+
     def start(self):
-        """Inicia o monitoramento periódico."""
         self.running = True
-        logging.info(f"Iniciando monitor (Intervalo: {self.interval}s)")
+        logging.info(f"Monitor started (Interval: {self.interval}s)")
         
         try:
             while self.running:
-                self._sync()
+                self._sync()  
+                self._sync_local_changes() 
                 for _ in range(self.interval):
                     if not self.running:
                         break
@@ -64,12 +79,10 @@ class SyncMonitor:
             self.stop()
 
     def stop(self):
-        """Para o monitoramento."""
         self.running = False
         logging.info("Monitor encerrado")
 
     def manual_sync(self, content: str):
-        """Sincronização manual."""
         try:
             response = self.stub.update_file_content(content, self.protocol_mode)
             with open(self.slave_file, 'w') as f:

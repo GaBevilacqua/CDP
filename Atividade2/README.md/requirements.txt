@@ -1,0 +1,44 @@
+# Bibliotecas e módulos utilizados no projeto
+
+1. json
+   - Usado para codificar e decodificar dados no formato JSON, útil para comunicação entre cliente e servidor e para configuração de arquivos.
+
+2. urllib.request (Request, urlopen)
+   - Permite fazer requisições HTTP e acessar URLs diretamente via Python.
+
+3. urllib.error (URLError, HTTPError)
+   - Fornece classes para tratar erros que podem ocorrer durante requisições HTTP, como falhas de conexão ou erros 404.
+
+4. interface.remote_interface (RemoteFileSyncInterface)
+   - Interface personalizada definida no projeto, usada para definir os métodos que o cliente e servidor devem implementar para sincronização remota de arquivos.
+
+5. common.protocol (ProtocolMode)
+   - Enumeração ou configuração personalizada do projeto, usada para definir o modo de operação do protocolo de comunicação.
+
+6. logging
+   - Biblioteca padrão para geração de logs no Python, útil para depuração, auditoria e monitoramento da aplicação.
+
+7. os
+   - Fornece funções para interagir com o sistema operacional, como manipulação de arquivos e diretórios.
+
+8. hashlib
+   - Utilizado para gerar hashes de arquivos
+
+9. time
+   - Fornece funções relacionadas ao tempo, como medir duração ou adicionar atrasos com `sleep`.
+
+10. typing (Optional, Dict)
+    - Fornece suporte à tipagem estática, como `Optional` (valor pode ser `None`) e `Dict` (dicionário com tipos definidos).
+
+11. abc (ABC, abstractmethod)
+    - Permite criar classes e métodos abstratos, ou seja, estruturas que devem ser implementadas por subclasses.
+
+12. http.server (BaseHTTPRequestHandler)
+    - Classe base para criar um servidor HTTP simples, usada para manipular requisições e respostas HTTP.
+
+13. urllib.parse (urlparse, parse_qs)
+    - Usado para analisar e manipular URLs, como extrair parâmetros de query strings.
+
+14. common.auth (load_users)
+    - Função definida no projeto, provavelmente usada para carregar dados de autenticação de usuários a partir de um arquivo ou banco de dados.
+

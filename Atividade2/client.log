@@ -243,3 +243,260 @@
 2025-05-13 12:58:32,492 - INFO - Cliente iniciado (Modo: R)
 2025-05-13 12:58:32,492 - INFO - Iniciando monitor (Intervalo: 5s)
 2025-05-13 12:59:04,053 - INFO - Monitor encerrado
+2025-05-13 13:08:04,551 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 13:08:04,633 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 13:08:04,633 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 13:11:29,785 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-13 13:11:29,785 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-13 13:11:31,625 - INFO - Monitor encerrado
+2025-05-13 13:11:31,626 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 13:11:31,627 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-13 13:11:31,627 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-13 13:11:37,596 - INFO - Monitor encerrado
+2025-05-13 13:11:44,498 - INFO - Monitor encerrado
+2025-05-13 13:11:46,844 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 13:11:46,927 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 13:11:46,927 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 13:12:14,547 - INFO - Monitor encerrado
+2025-05-13 13:12:21,968 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 13:13:45,894 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 13:13:45,970 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 13:13:45,970 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 13:13:52,818 - INFO - Monitor encerrado
+2025-05-13 13:14:09,015 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 13:14:09,133 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 13:14:09,133 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 13:14:11,454 - INFO - Monitor encerrado
+2025-05-13 13:14:17,867 - ERROR - Erro HTTP 501: Unsupported method ('POST')
+2025-05-13 13:14:17,867 - ERROR - Falha na atualização: HTTP Error 501: Unsupported method ('POST')
+2025-05-13 13:14:22,690 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 13:14:22,690 - ERROR - Erro: HTTP Error 404: Not Found
+2025-05-13 13:19:56,267 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 13:19:56,340 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 13:19:56,340 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 13:19:59,510 - INFO - Monitor encerrado
+2025-05-13 13:20:03,957 - ERROR - Erro HTTP 501: Unsupported method ('POST')
+2025-05-13 13:20:34,850 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 13:20:34,851 - ERROR - Erro: HTTP Error 404: Not Found
+2025-05-13 14:12:47,890 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:12:47,966 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:12:47,966 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:12:50,646 - INFO - Monitor encerrado
+2025-05-13 14:13:00,107 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:13:00,107 - ERROR - Erro: HTTP Error 404: Not Found
+2025-05-13 14:16:07,515 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:16:07,610 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:16:07,610 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:16:08,906 - INFO - Monitor encerrado
+2025-05-13 14:16:12,068 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:16:12,068 - ERROR - Erro: HTTP Error 404: Not Found
+2025-05-13 14:17:24,983 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:17:25,064 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:17:25,065 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:17:27,275 - INFO - Monitor encerrado
+2025-05-13 14:17:29,686 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:17:29,686 - ERROR - Erro: HTTP Error 404: Not Found
+2025-05-13 14:22:19,668 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:22:19,753 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:22:19,753 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:22:21,670 - INFO - Monitor encerrado
+2025-05-13 14:23:08,968 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:23:09,044 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:23:09,044 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:23:09,048 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:23:09,048 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:23:14,054 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:23:14,054 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:23:19,059 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:23:19,060 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:23:24,065 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:23:24,066 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:23:25,641 - INFO - Monitor encerrado
+2025-05-13 14:25:09,526 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:25:09,600 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:25:09,600 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:25:09,603 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:25:09,604 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:25:14,609 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:25:14,609 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:25:16,898 - INFO - Monitor encerrado
+2025-05-13 14:25:57,716 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:25:57,786 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:25:57,786 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:25:57,789 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:25:57,789 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:26:02,795 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:26:02,795 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:26:07,801 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:26:07,801 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:26:08,625 - INFO - Monitor encerrado
+2025-05-13 14:30:17,864 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:30:17,938 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:30:17,938 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:30:17,942 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:30:17,942 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:30:35,577 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:30:35,651 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:30:35,651 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:30:35,655 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:30:35,655 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:30:40,662 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:30:40,662 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:33:16,491 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:33:16,566 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:33:16,566 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:33:16,570 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:33:16,570 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:33:21,576 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:33:21,576 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:33:29,155 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:33:29,235 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:33:29,235 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:33:29,239 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:33:29,240 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:33:58,802 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:33:58,871 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:33:58,871 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:33:58,875 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:33:58,875 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:03,881 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:03,881 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:06,819 - INFO - Cliente encerrado pelo usuário
+2025-05-13 14:34:08,870 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:34:08,942 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:34:08,943 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:34:08,946 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:08,946 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:13,952 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:13,952 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:18,960 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:18,960 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:23,965 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:23,966 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:28,971 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:28,972 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:33,977 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:33,977 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:35,156 - INFO - Monitor encerrado
+2025-05-13 14:34:40,517 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:34:40,589 - INFO - Cliente iniciado (Modo: R)
+2025-05-13 14:34:40,590 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:34:40,593 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:40,593 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:45,600 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:45,600 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:50,606 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:50,606 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:34:55,612 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:34:55,612 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:00,618 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:00,618 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:05,624 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:05,624 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:10,630 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:10,630 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:15,636 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:15,636 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:20,642 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:20,643 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:25,648 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:25,649 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:30,655 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:30,655 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:35,660 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:35,661 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:40,666 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:40,667 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:45,674 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:45,674 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:50,680 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:35:50,680 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:35:53,152 - INFO - Cliente encerrado pelo usuário.
+2025-05-13 14:50:23,900 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:50:23,973 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 14:50:23,973 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:50:23,977 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:50:23,977 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:50:28,983 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:50:28,984 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:50:32,931 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:50:33,012 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 14:50:33,013 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:50:33,017 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:50:33,017 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:50:38,022 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:50:38,022 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:57:30,371 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:57:30,445 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 14:57:30,446 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:57:30,449 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:57:51,782 - INFO - Cliente encerrado pelo usuário.
+2025-05-13 14:57:53,725 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:57:53,810 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 14:57:53,810 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:57:53,815 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:05,002 - INFO - Cliente encerrado pelo usuário.
+2025-05-13 14:58:06,675 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 14:58:06,748 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 14:58:06,749 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 14:58:06,752 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:06,753 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:11,759 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:11,759 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:16,764 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:16,764 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:21,770 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:21,771 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:26,776 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:26,776 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:31,782 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:31,782 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:36,788 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:36,788 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:41,794 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:41,795 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:46,800 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:46,801 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:51,807 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:51,807 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:58:56,813 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:58:56,813 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:59:01,818 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:59:01,819 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:59:06,825 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:59:06,825 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:59:11,830 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:59:11,830 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:59:16,836 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:59:16,836 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:59:21,841 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:59:21,842 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:59:26,847 - ERROR - Erro HTTP 404: Not Found
+2025-05-13 14:59:26,847 - ERROR - Erro na sincronização: HTTP Error 404: Not Found
+2025-05-13 14:59:29,149 - INFO - Cliente encerrado pelo usuário.
+2025-05-13 15:04:44,799 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 15:04:44,882 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 15:04:44,883 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 15:09:50,216 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 15:09:50,288 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 15:09:50,288 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-13 15:14:57,417 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 15:14:57,487 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 15:14:57,487 - INFO - Monitor started (Interval: 5s)
+2025-05-13 15:14:57,492 - INFO - Sync: master -> slave
+2025-05-13 15:15:12,505 - INFO - Sync: master -> slave
+2025-05-13 15:18:20,945 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 15:18:21,023 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 15:18:21,023 - INFO - Monitor started (Interval: 5s)
+2025-05-13 15:18:31,036 - INFO - Sync: master -> slave
+2025-05-13 15:26:36,368 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-13 15:26:36,369 - ERROR - Sync error: <urlopen error [Errno 111] Connection refused>
+2025-05-13 15:26:41,370 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-13 15:26:41,370 - ERROR - Sync error: <urlopen error [Errno 111] Connection refused>
+2025-05-13 15:26:41,934 - INFO - Cliente encerrado pelo usuário.
+2025-05-13 15:26:47,808 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 15:26:47,880 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 15:26:47,881 - INFO - Monitor started (Interval: 5s)
+2025-05-13 15:36:44,174 - INFO - Stub conectado a http://localhost:8000
+2025-05-13 15:36:44,245 - INFO - Cliente iniciado (Modo: RR)
+2025-05-13 15:36:44,246 - INFO - Monitor started (Interval: 5s)

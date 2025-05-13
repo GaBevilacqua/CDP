@@ -1,7 +1,3 @@
-"""
-Implementação do Stub RMI para comunicação com o servidor.
-"""
-
 import json
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
@@ -17,7 +13,6 @@ class FileSyncStub(RemoteFileSyncInterface):
         logging.debug(f"Token sendo usado: {auth_token}")
 
     def _make_request(self, endpoint: str, method: str = 'GET', data: dict = None):
-        """Método interno para requisições HTTP."""
         url = f"{self.server_url}{endpoint}"
         try:
             if method == 'GET':
@@ -45,6 +40,7 @@ class FileSyncStub(RemoteFileSyncInterface):
             raise
 
     def get_file_content(self) -> str:
+        logging.debug(f"Chamando endpoint: {self.server_url}/get_file_content") 
         response = self._make_request('/get_file_content')
         return response.get('content', '')
 
@@ -65,6 +61,30 @@ class FileSyncStub(RemoteFileSyncInterface):
             self._send_acknowledgment(response.get('sync_id'), protocol_mode)
             
         return response
+    
+    def update_master(self, new_content: str):
+        url = f"{self.server_url}/update_file_content"
+        try:
+            req = Request(
+                f"{self.server_url}/update_file_content",
+                data=json.dumps({
+                    'auth_token': self.auth_token,
+                    'content': new_content,
+                    'protocol_mode': 'RR'
+                }).encode('utf-8'),
+                headers={'Content-Type': 'application/json'},
+                method='POST'
+            )
+            
+            with urlopen(req) as response:
+                return json.loads(response.read().decode())
+                
+        except HTTPError as e:
+            logging.error(f"Erro HTTP {e.code}: {e.reason}")
+            raise
+        except Exception as e:
+            logging.error(f"Falha na requisição: {str(e)}")
+            raise
 
     def acknowledge_sync(self, sync_id: str) -> bool:
         response = self._make_request(

@@ -5,16 +5,13 @@ import argparse
 from pathlib import Path
 from http.server import HTTPServer
 
-# Configuração crucial de paths
 sys.path.append(str(Path(__file__).parent.parent))
 
-# Agora importe os módulos locais
 from server.dispatcher import RequestDispatcher
 from server.threads import ThreadedHTTPServer
 from server.file_handler import FileHandler
 
 def configure_logging():
-    """Configura o sistema de logging"""
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
@@ -27,7 +24,6 @@ def configure_logging():
 def run_server(host: str = 'localhost', port: int = 8000):
     configure_logging()
     
-    # Configuração absoluta dos caminhos
     base_dir = os.path.dirname(os.path.abspath(__file__))
     RequestDispatcher.file_handler = FileHandler(os.path.join(base_dir, 'master.txt'))
     RequestDispatcher.users_file = os.path.join(base_dir, 'users.json')
@@ -51,3 +47,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     run_server(args.host, args.port)
+
+def do_GET(self):
+    logging.info(f"Requisição GET recebida: {self.path}")

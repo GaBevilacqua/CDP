@@ -283,3 +283,100 @@
 2025-05-13 12:58:28,827 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
 2025-05-13 12:58:28,827 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
 2025-05-13 12:59:03,041 - INFO - Servidor encerrado
+2025-05-13 13:08:01,668 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:08:01,671 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 13:08:01,672 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 13:08:01,672 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:08:01,672 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 13:11:29,782 - INFO - Servidor encerrado
+2025-05-13 13:11:33,825 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:11:33,828 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 13:11:33,828 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 13:11:33,829 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:11:33,829 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 13:13:38,935 - INFO - Servidor encerrado
+2025-05-13 13:13:42,798 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:13:42,801 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 13:13:42,802 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 13:13:42,802 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:13:42,802 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 13:19:47,926 - INFO - Servidor encerrado
+2025-05-13 13:19:50,612 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:19:50,615 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 13:19:50,615 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 13:19:50,615 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 13:19:50,615 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 13:21:18,742 - INFO - Servidor encerrado
+2025-05-13 14:12:41,027 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:12:41,031 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 14:12:41,031 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 14:12:41,031 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:12:41,031 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 14:16:02,166 - INFO - Servidor encerrado
+2025-05-13 14:16:04,094 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:16:04,097 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 14:16:04,097 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 14:16:04,097 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:16:04,097 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 14:17:19,568 - INFO - Servidor encerrado
+2025-05-13 14:17:21,661 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:17:21,664 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 14:17:21,665 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 14:17:21,665 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:17:21,665 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 14:25:02,998 - INFO - Servidor encerrado
+2025-05-13 14:25:04,473 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:25:04,476 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 14:25:04,476 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 14:25:04,477 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:25:04,477 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 14:30:07,745 - INFO - Servidor encerrado
+2025-05-13 14:30:14,798 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:30:14,801 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 14:30:14,801 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 14:30:14,801 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:30:14,801 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 14:33:06,732 - INFO - Servidor encerrado
+2025-05-13 14:33:11,343 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:33:11,347 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 14:33:11,347 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 14:33:11,347 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 14:33:11,347 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 15:04:35,192 - INFO - Servidor encerrado
+2025-05-13 15:04:36,757 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:04:36,760 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 15:04:36,760 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 15:04:36,761 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:04:36,761 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 15:09:43,620 - INFO - Servidor encerrado
+2025-05-13 15:09:45,809 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:09:45,813 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 15:09:45,813 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 15:09:45,813 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:09:45,813 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 15:14:51,334 - INFO - Servidor encerrado
+2025-05-13 15:14:54,219 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:14:54,223 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 15:14:54,223 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 15:14:54,223 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:14:54,223 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 15:18:14,914 - INFO - Servidor encerrado
+2025-05-13 15:18:17,303 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:18:17,306 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 15:18:17,307 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 15:18:17,307 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:18:17,307 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 15:26:36,367 - INFO - Servidor encerrado
+2025-05-13 15:26:45,354 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:26:45,359 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 15:26:45,359 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 15:26:45,359 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:26:45,359 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 15:26:59,820 - INFO - [SUCCESS] admin@127.0.0.1: Arquivo master atualizado
+2025-05-13 15:36:38,331 - INFO - Servidor encerrado
+2025-05-13 15:36:39,430 - INFO - FileHandler configurado para: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:36:39,433 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-13 15:36:39,433 - INFO - Servidor iniciado em http://localhost:8000
+2025-05-13 15:36:39,434 - INFO - Master file: /home/bevilacqua/Documents/CDP/Atividade2/server/master.txt
+2025-05-13 15:36:39,434 - INFO - Users file: /home/bevilacqua/Documents/CDP/Atividade2/server/users.json
+2025-05-13 15:36:53,370 - INFO - [SUCCESS] admin@127.0.0.1: Arquivo master atualizado
