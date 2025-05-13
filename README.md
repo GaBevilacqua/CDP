@@ -14,12 +14,8 @@ Configuração do socket (UDP,IP, Port, TTL) -> Ciração XML -> Serialização 
 COnfiguração do socket -> Recepção -> Desserialização ou usar biblioteca
 
 
+### Exercício 2
 
-
-
-
-
-python server/server_main.py
-python -m client.client_main --username admin --password admin123 --mode RR
+Mais detalhes em Readme>readme.MD e requeriments.txt
 
 
