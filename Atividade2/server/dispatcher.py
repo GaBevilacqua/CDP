@@ -48,12 +48,16 @@ class RequestDispatcher(BaseHTTPRequestHandler):
    
 
     def _authenticate(self, auth_token: str) -> str:
-        users = load_users(self.users_file)
-        for username, password in users.items():
-            expected_token = generate_auth_token(username, password)
-            if expected_token == auth_token:
-                return username
-        return None
+        """Versão simplificada e robusta"""
+        try:
+            users = load_users(self.users_file)
+            for username, password in users.items():
+                if hashlib.sha256(f"{username}:{password}".encode()).hexdigest() == auth_token:
+                    return username
+            return None
+        except Exception as e:
+            logging.error(f"Erro na autenticação: {str(e)}")
+            return None
         
 
     def _log_request(self, username: str, success: bool, message: str):
@@ -79,22 +83,15 @@ class RequestDispatcher(BaseHTTPRequestHandler):
         endpoint = parsed_path.path
         params = parse_qs(parsed_path.query)
         auth_token = params.get('auth_token', [''])[0]
-        
+
+        # Autenticação
         username = self._authenticate(auth_token)
         if not username:
             return
-            
+
         try:
-            if endpoint == '/get_file_content':
-                content = self.file_handler.read_content()
-                self._set_headers()
-                self.wfile.write(json.dumps({
-                    'status': 'success',
-                    'content': content
-                }).encode())
-                
-            elif endpoint == '/check_master_version':
-                version_info = self.file_handler.get_version_info()  # Agora funciona
+            if endpoint == '/check_master_version':  # Correção: underline em vez de espaço
+                version_info = self.file_handler.get_version_info()  # Correção: removido espaço
                 self._set_headers()
                 self.wfile.write(json.dumps({
                     'status': 'success',
