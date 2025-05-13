@@ -1,0 +1,2 @@
+{"timestamp": "2023-11-15 10:30:45", "username": "admin", "client_ip": "127.0.0.1", "success": true, "message": "Conteúdo recuperado"}
+{"timestamp": "2023-11-15 10:31:02", "username": "user1", "client_ip": "127.0.0.1", "success": true, "message": "Arquivo atualizado (Modo: RR)"}

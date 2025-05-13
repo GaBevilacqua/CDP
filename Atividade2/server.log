@@ -1,0 +1,156 @@
+2025-05-12 19:58:33,872 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 19:58:33,872 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 19:58:33,872 - INFO - Arquivo master: master.txt
+2025-05-12 19:58:33,872 - INFO - Arquivo de usuários: users.json
+2025-05-12 19:58:33,872 - INFO - Log de sincronização: sync.log
+2025-05-12 20:04:35,418 - INFO - Servidor encerrado por interrupção
+2025-05-12 20:08:49,748 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 20:08:49,748 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 20:08:49,748 - INFO - Arquivo master: master.txt
+2025-05-12 20:08:49,748 - INFO - Arquivo de usuários: users.json
+2025-05-12 20:08:49,748 - INFO - Log de sincronização: sync.log
+2025-05-12 20:14:01,049 - INFO - Servidor encerrado por interrupção
+2025-05-12 20:16:30,471 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 20:16:30,471 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 20:16:30,471 - INFO - Arquivo master: master.txt
+2025-05-12 20:16:30,471 - INFO - Arquivo de usuários: users.json
+2025-05-12 20:16:30,471 - INFO - Log de sincronização: sync.log
+2025-05-12 20:17:34,199 - INFO - Servidor encerrado por interrupção
+2025-05-12 20:17:44,289 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 20:17:44,289 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 20:17:44,290 - INFO - Arquivo master: master.txt
+2025-05-12 20:17:44,290 - INFO - Arquivo de usuários: users.json
+2025-05-12 20:17:44,290 - INFO - Log de sincronização: sync.log
+2025-05-12 20:28:05,088 - INFO - Servidor encerrado por interrupção
+2025-05-12 20:28:07,008 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 20:28:07,008 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 20:28:07,008 - INFO - Arquivo master: master.txt
+2025-05-12 20:28:07,008 - INFO - Arquivo de usuários: users.json
+2025-05-12 20:28:07,008 - INFO - Log de sincronização: sync.log
+2025-05-12 20:42:17,840 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:17,840 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:22,844 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:22,845 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:27,849 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:27,849 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:32,853 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:32,853 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:37,856 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:37,857 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:42,860 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:42,861 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:47,865 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:47,865 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:52,869 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:52,870 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:42:57,873 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:42:57,874 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:43:02,878 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:43:02,878 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:43:07,882 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:43:07,882 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:43:12,886 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:43:12,886 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:43:17,891 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:43:17,892 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:43:22,896 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:43:22,896 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:43:27,900 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:43:27,900 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:43:31,697 - INFO - Servidor encerrado por interrupção
+2025-05-12 20:44:00,923 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 20:44:00,923 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 20:44:00,923 - INFO - Arquivo master: master.txt
+2025-05-12 20:44:00,923 - INFO - Arquivo de usuários: users.json
+2025-05-12 20:44:00,924 - INFO - Log de sincronização: sync.log
+2025-05-12 20:44:02,915 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:44:02,916 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:44:09,576 - INFO - Servidor encerrado por interrupção
+2025-05-12 20:44:11,147 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 20:44:11,147 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 20:44:11,148 - INFO - Arquivo master: master.txt
+2025-05-12 20:44:11,148 - INFO - Arquivo de usuários: users.json
+2025-05-12 20:44:11,148 - INFO - Log de sincronização: sync.log
+2025-05-12 20:44:28,181 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 20:44:28,181 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 20:44:33,116 - INFO - Servidor encerrado por interrupção
+2025-05-12 20:44:37,579 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 20:44:37,579 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 20:44:37,579 - INFO - Arquivo master: master.txt
+2025-05-12 20:44:37,579 - INFO - Arquivo de usuários: users.json
+2025-05-12 20:44:37,579 - INFO - Log de sincronização: sync.log
+2025-05-12 21:12:27,675 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:12:27,675 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:12:32,679 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:12:32,680 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:12:37,683 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:12:37,684 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:12:42,688 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:12:42,689 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:12:47,695 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:12:47,695 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:12:52,700 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:12:52,701 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:12:57,704 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:12:57,705 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:02,708 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:02,709 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:07,714 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:07,715 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:12,719 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:12,719 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:17,722 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:17,723 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:22,727 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:22,727 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:27,731 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:27,731 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:32,735 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:32,736 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:37,740 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:13:37,740 - INFO - [FAILED] unknown@127.0.0.1: Autenticação falhou
+2025-05-12 21:13:41,248 - INFO - Servidor encerrado por interrupção
+2025-05-12 21:25:36,735 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 21:25:36,736 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 21:25:36,736 - INFO - Arquivo master: master.txt
+2025-05-12 21:25:36,736 - INFO - Arquivo de usuários: users.json
+2025-05-12 21:25:36,736 - INFO - Log de sincronização: sync.log
+2025-05-12 21:25:40,485 - WARNING - Arquivo de usuários não encontrado: users.json
+2025-05-12 21:25:40,485 - INFO - [FAILED] unknown@127.0.0.1: Falha na autenticação
+2025-05-12 21:31:28,400 - INFO - Servidor encerrado por interrupção
+2025-05-12 21:31:33,872 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 21:31:33,872 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 21:31:33,873 - INFO - Arquivo master: master.txt
+2025-05-12 21:31:33,873 - INFO - Arquivo de usuários: users.json
+2025-05-12 21:31:33,873 - INFO - Log de sincronização: sync.log
+2025-05-12 21:35:37,145 - INFO - Servidor encerrado por interrupção
+2025-05-12 21:37:43,153 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 21:37:43,153 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 21:37:43,153 - INFO - Arquivo master: master.txt
+2025-05-12 21:37:43,153 - INFO - Arquivo de usuários: users.json
+2025-05-12 21:37:43,153 - INFO - Log de sincronização: sync.log
+2025-05-12 21:37:56,303 - ERROR - Falha crítica na autenticação: 'RequestDispatcher' object has no attribute '_load_users'
+2025-05-12 21:38:22,014 - INFO - Servidor encerrado por interrupção
+2025-05-12 21:42:43,954 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 21:42:43,954 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 21:42:43,954 - INFO - Arquivo master: master.txt
+2025-05-12 21:42:43,954 - INFO - Arquivo de usuários: users.json
+2025-05-12 21:42:43,954 - INFO - Log de sincronização: sync.log
+2025-05-12 21:42:48,523 - INFO - Usuário autenticado: admin
+2025-05-12 21:42:48,524 - INFO - [FAILED] admin@127.0.0.1: Erro interno: 'FileHandler' object has no attribute 'get_version_info'
+2025-05-12 21:45:06,721 - INFO - Servidor encerrado por interrupção
+2025-05-12 21:46:08,502 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 21:46:08,502 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 21:46:08,502 - INFO - Arquivo master: master.txt
+2025-05-12 21:46:08,502 - INFO - Arquivo de usuários: users.json
+2025-05-12 21:46:08,502 - INFO - Log de sincronização: sync.log
+2025-05-12 21:46:11,254 - INFO - Usuário autenticado: admin
+2025-05-12 21:46:11,254 - ERROR - Erro interno: 'FileHandler' object has no attribute 'get_version_info'
+2025-05-12 21:50:19,006 - INFO - Servidor encerrado por interrupção
+2025-05-12 21:51:24,786 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 21:51:24,786 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 21:51:24,786 - INFO - Arquivo master: master.txt
+2025-05-12 21:51:24,787 - INFO - Arquivo de usuários: users.json
+2025-05-12 21:51:24,787 - INFO - Log de sincronização: sync.log
+2025-05-12 21:51:31,811 - INFO - Usuário autenticado: admin
+2025-05-12 21:51:31,812 - ERROR - Erro interno: 'FileHandler' object has no attribute 'get_version_info'

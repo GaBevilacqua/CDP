@@ -16,3 +16,10 @@ COnfiguração do socket -> Recepção -> Desserialização ou usar biblioteca
 
 
 
+
+
+
+python server/server_main.py
+python -m client.client_main --username admin --password admin123 --mode RR
+
+
