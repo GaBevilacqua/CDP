@@ -69,5 +69,9 @@ def main():
     except Exception as e:
         logging.error(f"Erro: {str(e)}")  # Mensagem mantida simples
 
+        
+
+    
+
 if __name__ == '__main__':
     main()
