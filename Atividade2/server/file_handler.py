@@ -1,4 +1,3 @@
-# server/file_handler.py
 import os
 import hashlib
 import logging
@@ -11,29 +10,20 @@ class FileHandler:
         logging.info(f"FileHandler configurado para: {self.file_path}")
 
     def _ensure_file_exists(self):
-        """Garante que o arquivo existe"""
         if not os.path.exists(self.file_path):
             with open(self.file_path, 'w') as f:
                 f.write('')
             logging.info(f"Arquivo criado: {self.file_path}")
 
     def read_content(self) -> str:
-        """Lê o conteúdo do arquivo"""
-        with open(self.file_path, 'r') as f:
+        with open('master.txt', 'r') as f:
             return f.read()
 
     def write_content(self, content: str):
-        """Escreve conteúdo no arquivo"""
         with open(self.file_path, 'w') as f:
             f.write(content)
 
     def get_version_info(self) -> Dict[str, Any]:
-        """
-        Retorna metadados da versão atual:
-        - content_hash: Hash SHA-256 do conteúdo
-        - last_modified: Timestamp da última modificação
-        - size: Tamanho em bytes
-        """
         content = self.read_content()
         return {
             'content_hash': hashlib.sha256(content.encode()).hexdigest(),
