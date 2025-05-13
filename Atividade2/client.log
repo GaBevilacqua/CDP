@@ -105,3 +105,6 @@
 2025-05-12 21:51:31,737 - INFO - Stub conectado a http://localhost:8000
 2025-05-12 21:51:31,812 - ERROR - Erro HTTP 500: Internal Server Error
 2025-05-12 21:51:31,812 - ERROR - Falha na conexão inicial: HTTP Error 500: Internal Server Error
+2025-05-12 22:03:01,785 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 22:03:01,859 - ERROR - Erro HTTP 500: Internal Server Error
+2025-05-12 22:03:01,860 - ERROR - Falha na conexão inicial: HTTP Error 500: Internal Server Error

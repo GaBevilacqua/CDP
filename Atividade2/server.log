@@ -154,3 +154,10 @@
 2025-05-12 21:51:24,787 - INFO - Log de sincronização: sync.log
 2025-05-12 21:51:31,811 - INFO - Usuário autenticado: admin
 2025-05-12 21:51:31,812 - ERROR - Erro interno: 'FileHandler' object has no attribute 'get_version_info'
+2025-05-12 22:02:54,171 - INFO - Servidor encerrado por interrupção
+2025-05-12 22:02:57,634 - INFO - Servidor threadado iniciado em ('localhost', 8000)
+2025-05-12 22:02:57,634 - INFO - Servidor RMI iniciado em http://localhost:8000
+2025-05-12 22:02:57,635 - INFO - Arquivo master: master.txt
+2025-05-12 22:02:57,635 - INFO - Arquivo de usuários: users.json
+2025-05-12 22:02:57,635 - INFO - Log de sincronização: sync.log
+2025-05-12 22:03:01,859 - ERROR - Erro interno: 'FileHandler' object has no attribute 'get_version_info'

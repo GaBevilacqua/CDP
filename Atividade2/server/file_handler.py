@@ -27,16 +27,11 @@ class FileHandler:
         with open(self.file_path, 'w') as f:
             f.write(content)
 
-    def get_version_info(self) -> Dict[str, Any]:
-        """
-        Retorna metadados da versão atual:
-        - content_hash: Hash SHA-256 do conteúdo
-        - last_modified: Timestamp da última modificação
-        - size: Tamanho em bytes
-        """
+    def get_version_info(self) -> dict:
+        """Retorna metadados do arquivo master"""
         content = self.read_content()
         return {
             'content_hash': hashlib.sha256(content.encode()).hexdigest(),
             'last_modified': os.path.getmtime(self.file_path),
-            'size': len(content.encode('utf-8'))
+            'size': len(content)
         }

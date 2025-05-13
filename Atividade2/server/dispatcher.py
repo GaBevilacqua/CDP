@@ -1,8 +1,3 @@
-
-"""
-Implementação do dispatcher/skeleton que trata as requisições HTTP.
-"""
-
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import json
@@ -12,6 +7,7 @@ from common.auth import validate_token
 from common.protocol import ProtocolMode
 import logging
 import hashlib
+from common.auth import load_users, generate_auth_token
 
 class RequestDispatcher(BaseHTTPRequestHandler):
     file_handler = None  # Será inicializado no server_main
@@ -52,29 +48,12 @@ class RequestDispatcher(BaseHTTPRequestHandler):
    
 
     def _authenticate(self, auth_token: str) -> str:
-        """Autenticação com tratamento completo de erros"""
-        try:
-            users = self._load_users()
-            if not users:
-                logging.error("Nenhum usuário cadastrado")
-                return None
-                
-            for username, password in users.items():
-                try:
-                    expected_token = hashlib.sha256(f"{username}:{password}".encode()).hexdigest()
-                    if expected_token == auth_token:
-                        logging.info(f"Usuário autenticado: {username}")
-                        return username
-                except Exception as e:
-                    logging.error(f"Erro ao verificar {username}: {str(e)}")
-                    continue
-                    
-            logging.warning("Token não corresponde a nenhum usuário")
-            return None
-            
-        except Exception as e:
-            logging.error(f"Falha crítica na autenticação: {str(e)}")
-            return None
+        users = load_users(self.users_file)
+        for username, password in users.items():
+            expected_token = generate_auth_token(username, password)
+            if expected_token == auth_token:
+                return username
+        return None
         
 
     def _log_request(self, username: str, success: bool, message: str):
@@ -94,15 +73,48 @@ class RequestDispatcher(BaseHTTPRequestHandler):
         # Log no console
         status = "SUCCESS" if success else "FAILED"
         logging.info(f"[{status}] {username}@{self.client_address[0]}: {message}")
+    
+    def do_GET(self):
+        parsed_path = urlparse(self.path)
+        endpoint = parsed_path.path
+        params = parse_qs(parsed_path.query)
+        auth_token = params.get('auth_token', [''])[0]
         
-        def do_GET(self):
-            if endpoint == '/check_master_version':
-                version_info = self.file_handler.get_version_info()  # Agora deve funcionar
+        username = self._authenticate(auth_token)
+        if not username:
+            return
+            
+        try:
+            if endpoint == '/get_file_content':
+                content = self.file_handler.read_content()
+                self._set_headers()
+                self.wfile.write(json.dumps({
+                    'status': 'success',
+                    'content': content
+                }).encode())
+                
+            elif endpoint == '/check_master_version':
+                version_info = self.file_handler.get_version_info()  # Agora funciona
                 self._set_headers()
                 self.wfile.write(json.dumps({
                     'status': 'success',
                     'version_info': version_info
                 }).encode())
+                
+            else:
+                self._set_headers(404)
+                self.wfile.write(json.dumps({
+                    'status': 'error',
+                    'message': 'Endpoint não encontrado'
+                }).encode())
+                
+        except Exception as e:
+            self._set_headers(500)
+            self.wfile.write(json.dumps({
+                'status': 'error',
+                'message': str(e)
+            }).encode())
+            logging.error(f"Erro interno: {str(e)}")
 
     def do_POST(self):
         """Trata requisições POST."""
