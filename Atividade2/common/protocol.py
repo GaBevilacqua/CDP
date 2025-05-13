@@ -1,19 +1,24 @@
 # common/protocol.py
 """
-Definição dos modos de protocolo de comunicação suportados pelo sistema.
+Definição dos protocolos de comunicação e sincronização para o sistema RMI.
+
+Contém:
+- ProtocolMode: Enumeração dos modos de operação (R, RR, RRA)
+- SyncProtocol: Classe auxiliar para operações de sincronização
 """
 
 from enum import Enum, auto
 import logging
+from typing import Optional, Dict, Any
 
 class ProtocolMode(Enum):
     """
-    Enumeração dos modos de protocolo de comunicação suportados.
+    Enumeração dos modos de comunicação suportados pelo sistema.
     
     Valores:
-        SIMPLE_REQUEST ('R'): Requisição simples (request-only)
-        REQUEST_RESPONSE ('RR'): Requisição-Resposta confirmada
-        ASYNC_ACK ('RRA'): Requisição-Resposta com Acknowledgment assíncrono
+        SIMPLE_REQUEST ('R'): Requisição simples sem confirmação
+        REQUEST_RESPONSE ('RR'): Requisição com confirmação síncrona
+        ASYNC_ACK ('RRA'): Requisição com confirmação assíncrona
     """
     SIMPLE_REQUEST = 'R'
     REQUEST_RESPONSE = 'RR'
@@ -21,55 +26,61 @@ class ProtocolMode(Enum):
 
     @classmethod
     def has_value(cls, value: str) -> bool:
-        """
-        Verifica se um valor é um modo de protocolo válido.
-        
-        Args:
-            value: Valor a ser verificado
-            
-        Returns:
-            bool: True se o valor for válido, False caso contrário
-        """
-        return value in {item.value for item in cls}
-
-    @classmethod
-    def get_mode(cls, value: str) -> 'ProtocolMode':
-        """
-        Obtém o enum correspondente ao valor string.
-        
-        Args:
-            value: Valor string ('R', 'RR' ou 'RRA')
-            
-        Returns:
-            ProtocolMode: Enum correspondente
-            
-        Raises:
-            ValueError: Se o valor não corresponder a nenhum modo válido
-        """
-        for mode in cls:
-            if mode.value == value:
-                return mode
-        raise ValueError(f"Modo de protocolo inválido: {value}")
+        """Verifica se um valor é um modo válido."""
+        return value in cls._value2member_map_
 
     def get_description(self) -> str:
+        """Retorna descrição amigável do modo."""
+        return {
+            self.SIMPLE_REQUEST: "Requisição Simples",
+            self.REQUEST_RESPONSE: "Requisição-Resposta",
+            self.ASYNC_ACK: "Confirmação Assíncrona"
+        }.get(self, "Modo Desconhecido")
+
+class SyncProtocol:
+    """
+    Classe auxiliar para operações de sincronização.
+    Implementa padrões comuns para todos os modos de operação.
+    """
+    
+    @staticmethod
+    def validate_mode(mode: str) -> ProtocolMode:
+        """Valida e converte string para ProtocolMode."""
+        if not ProtocolMode.has_value(mode):
+            raise ValueError(f"Modo de protocolo inválido: {mode}")
+        return ProtocolMode(mode)
+
+    @staticmethod
+    def requires_acknowledgment(mode: ProtocolMode) -> bool:
+        """Verifica se o modo requer confirmação."""
+        return mode in [ProtocolMode.REQUEST_RESPONSE, ProtocolMode.ASYNC_ACK]
+
+    @staticmethod
+    def prepare_request(content: str, mode: ProtocolMode) -> Dict[str, Any]:
         """
-        Retorna uma descrição amigável do modo de protocolo.
+        Prepara um dicionário padrão para requisições de sincronização.
+        
+        Args:
+            content: Conteúdo a ser sincronizado
+            mode: Modo de protocolo
+            
+        Returns:
+            Dicionário padronizado para a requisição
         """
-        descriptions = {
-            self.SIMPLE_REQUEST: "Requisição simples (sem confirmação)",
-            self.REQUEST_RESPONSE: "Requisição-Resposta confirmada",
-            self.ASYNC_ACK: "Requisição-Resposta com Ack assíncrono"
+        return {
+            "content": content,
+            "protocol_mode": mode.value,
+            "timestamp": SyncProtocol.current_timestamp()
         }
-        return descriptions.get(self, "Modo de protocolo desconhecido")
 
-    def requires_ack(self) -> bool:
-        """
-        Indica se este modo de protocolo requer acknowledgment.
-        """
-        return self in {ProtocolMode.REQUEST_RESPONSE, ProtocolMode.ASYNC_ACK}
+    @staticmethod
+    def current_timestamp() -> str:
+        """Retorna timestamp no formato ISO8601."""
+        from datetime import datetime
+        return datetime.now().isoformat()
 
-    def is_async_ack(self) -> bool:
-        """
-        Indica se este modo de protocolo requer acknowledgment assíncrono.
-        """
-        return self == ProtocolMode.ASYNC_ACK
+    @staticmethod
+    def log_operation(mode: ProtocolMode, operation: str, success: bool = True):
+        """Log padronizado para operações de sincronização."""
+        status = "SUCESSO" if success else "FALHA"
+        logging.info(f"[{status}] {mode.get_description()} - {operation}")

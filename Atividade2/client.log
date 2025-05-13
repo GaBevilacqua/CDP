@@ -1,0 +1,107 @@
+2025-05-12 20:42:17,768 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 20:42:17,768 - INFO - Arquivo slave.txt criado
+2025-05-12 20:42:17,768 - INFO - Cliente iniciado (Modo: RR)
+2025-05-12 20:42:17,769 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-12 20:42:17,841 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:17,841 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:22,846 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:22,846 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:27,850 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:27,850 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:32,854 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:32,854 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:37,858 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:37,858 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:42,862 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:42,862 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:47,866 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:47,867 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:52,871 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:52,871 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:42:57,875 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:42:57,875 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:43:02,879 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:43:02,879 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:43:07,883 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:43:07,883 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:43:12,888 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:43:12,888 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:43:17,893 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:43:17,894 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:43:22,897 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:43:22,897 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:43:27,901 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:43:27,901 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:43:32,903 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:32,904 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:37,905 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:37,906 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:42,907 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:42,907 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:47,909 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:47,909 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:52,910 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:52,911 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:57,912 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:43:57,912 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:44:02,916 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:44:02,917 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:44:07,312 - INFO - Monitor encerrado
+2025-05-12 20:44:28,107 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 20:44:28,107 - INFO - Cliente iniciado (Modo: RR)
+2025-05-12 20:44:28,108 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-12 20:44:28,182 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 20:44:28,182 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 20:44:33,183 - ERROR - Falha na conexão: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:44:33,184 - ERROR - Erro na sincronização: <urlopen error [Errno 111] Connection refused>
+2025-05-12 20:44:35,184 - INFO - Monitor encerrado
+2025-05-12 21:12:27,574 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 21:12:27,574 - INFO - Cliente iniciado (Modo: RR)
+2025-05-12 21:12:27,575 - INFO - Iniciando monitor (Intervalo: 5s)
+2025-05-12 21:12:27,676 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:12:27,677 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:12:32,681 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:12:32,681 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:12:37,685 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:12:37,685 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:12:42,690 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:12:42,690 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:12:47,696 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:12:47,696 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:12:52,702 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:12:52,702 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:12:57,705 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:12:57,706 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:02,711 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:02,711 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:07,715 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:07,716 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:12,720 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:12,720 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:17,724 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:17,724 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:22,728 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:22,728 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:27,732 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:27,733 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:32,737 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:32,737 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:37,741 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:13:37,741 - ERROR - Erro na sincronização: HTTP Error 401: Unauthorized
+2025-05-12 21:13:39,718 - INFO - Monitor encerrado
+2025-05-12 21:25:40,407 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 21:25:40,486 - ERROR - Erro HTTP 401: Unauthorized
+2025-05-12 21:25:40,486 - ERROR - Falha na conexão inicial: HTTP Error 401: Unauthorized
+2025-05-12 21:31:57,755 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 21:31:57,837 - ERROR - Falha na conexão inicial: Remote end closed connection without response
+2025-05-12 21:37:56,227 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 21:37:56,304 - ERROR - Falha na conexão inicial: Remote end closed connection without response
+2025-05-12 21:42:48,448 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 21:42:48,524 - ERROR - Erro HTTP 500: Internal Server Error
+2025-05-12 21:42:48,524 - ERROR - Falha na conexão inicial: HTTP Error 500: Internal Server Error
+2025-05-12 21:46:11,165 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 21:46:11,254 - ERROR - Erro HTTP 500: Internal Server Error
+2025-05-12 21:46:11,255 - ERROR - Falha na conexão inicial: HTTP Error 500: Internal Server Error
+2025-05-12 21:51:31,737 - INFO - Stub conectado a http://localhost:8000
+2025-05-12 21:51:31,812 - ERROR - Erro HTTP 500: Internal Server Error
+2025-05-12 21:51:31,812 - ERROR - Falha na conexão inicial: HTTP Error 500: Internal Server Error
